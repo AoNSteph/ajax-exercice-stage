@@ -9,7 +9,7 @@ Pour réaliser l’exercice, vous devez :
 *	Avoir un serveur web, de type LAMP / WAMP / MAMP
 *	Télécharger et placer les trois fichiers fournis dans le même répertoire à la racine de votre site local
 *	Utiliser un IDE (Netbeans, Visual Studio Code ou autre)
-*	Compléter le fichier game.js pour atteindre le fonctionnement attendu
+*	**Compléter le fichier game.js pour atteindre le fonctionnement attendu**
 
 ## Fonctionnement attendu
 Le joueur doit lui-même démarrer une partie en cliquant sur un bouton.
