@@ -33,11 +33,8 @@ Plusieurs fonctions sont déjà fournies, avec leur documentation. Vous aurez be
 Ci-dessous est fournie la documentation API : une liste des appels AJAX que vous pouvez réaliser à api.php.
 | Méthode | URI | Paramètres | Description | Retour |
 | --- | --- | --- | --- | --- |
-| GET | api.php | | Obtient le statut du jeu et le nombre d’essais. | « started » : booléen, si le jeu est démarré
-« tries » : entier, nombre d’essais |
+| GET | api.php | | Obtient le statut du jeu et le nombre d’essais. | « started » : booléen, si le jeu est démarré<br />« tries » : entier, nombre d’essais |
 | PUT | api.php |  | Démarre une nouvelle partie.	| |
 | DELETE | api.php |  | Termine la partie en cours. | |
-| POST | api.php | nb | Teste un nombre nb. Si le nombre testé est plus grand que le nombre mystère, renvoie 1. S’il est plus petit, renvoie -1. S’il est égal, renvoie 0. | « mystery » : entier, si le nombre mystère a été trouvé
-« result » : le résultat de la tentative (-1, 0 ou 1)
-« tries » : entier, le nombre d’essais réalisés |
+| POST | api.php | nb | Teste un nombre nb. Si le nombre testé est plus grand que le nombre mystère, renvoie 1. S’il est plus petit, renvoie -1. S’il est égal, renvoie 0. | « mystery » : entier, si le nombre mystère a été trouvé<br />« result » : le résultat de la tentative (-1, 0 ou 1)<br />« tries » : entier, le nombre d’essais réalisés |
 
