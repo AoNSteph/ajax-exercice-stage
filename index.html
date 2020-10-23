@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mon super jeu</title>
+        <meta charset="utf-8" />
+        <style type="text/css">
+            .error { color: red; }
+            .success { color: green; }
+            .btn {
+                background-color: rgb(240, 240, 240);
+                border: 1px outset rgb(227, 227, 227);
+                color: rgb(0, 0, 0);
+                font-family: Tahoma;
+                font-size: small;
+                font-weight: 400;
+                margin: 0px;
+                padding-left: 8px;
+                padding-right: 8px;
+                padding-top: 0px;
+                padding-bottom: 0px;
+                text-align: center;
+                text-decoration: none;
+                text-justify: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Plus ou moins ?</h1>
+        <p>
+            <a href="#" class="btn" id="startGameButton">Démarrer le jeu</a>
+            <a href="#" class="btn" id="endGameButton">Terminer le jeu</a>
+        </p>
+        <form method="post" id="gameTryForm">
+            <p>
+                <input type="number" id="tryNb" min="0" max="100" step="1" />
+                <input type="submit" name="Tester ce nombre" />
+            </p>
+        </form>
+        <p id="niceResults">En attente.</p>
+        <fieldset>
+            <legend>Résultats bruts</legend>
+            <pre id="rawResults"></pre>
+        </fieldset>
+        <script type="text/javascript" src="game.js"></script>
+    </body>
+</html>
